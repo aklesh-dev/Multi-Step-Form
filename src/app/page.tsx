@@ -62,11 +62,11 @@ export default function Home() {
           {/* Next Button */}
           {/* Render the next button or the submit button depending on the isLastStep constant */}
           {isLastStep ? (
-            <Button className="p-7" onClick={handleNext}>
+            <Button className="p-7 bg-blue-600 hover:bg-blue-500 cursor-pointer" onClick={handleNext}>
               {BUTTON_LABELS.NEXT}
             </Button>
           ) : (
-            <Button className="p-7" onClick={() => alert("Form submitted")}>
+            <Button className="p-7 bg-blue-600 hover:bg-blue-500 cursor-pointer" onClick={() => alert("Form submitted")}>
               {BUTTON_LABELS.SUBMIT}
             </Button>
           )}
