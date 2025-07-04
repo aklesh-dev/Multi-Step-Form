@@ -1,6 +1,15 @@
-const Step3 = () => {
+interface step3Props {
+  purpose: string;
+  subtext: string;
+}
+
+const Step3 = ({purpose, subtext}: step3Props) => {
   return (
-    <div className=''>Step3</div>
+    <div className='mt-10'>
+      <h3 className="font-bold text-xl">{purpose}</h3>
+      <p className="text-sm text-gray-500">{subtext}</p>
+      <div className="grid grid-cols-2 mt-5 gap-8">fields</div>
+    </div>
   )
 }
 
