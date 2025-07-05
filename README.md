@@ -1,6 +1,6 @@
 # Multi Step Form
   ## Overview
-    This project is multi step form using Nextjs and Shadcn/ui. It has a form with multiple steps and form validation using zod library. The form is handled using react-hook-form library.
+  This project is multi step form using Nextjs and Shadcn/ui. It has a form with multiple steps and form validation using zod library. The form is handled using react-hook-form library.
 
 ## Tech stack
   - Nextjs for the frontend
